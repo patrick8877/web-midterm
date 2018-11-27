@@ -1,0 +1,113 @@
+html{
+    background-color: darkslategray;
+}
+.container{
+    width:1060px;
+    height:1653px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+.content-area{
+    width: 1060px;
+    height: 1130px;  
+    background-color:white;
+    padding: 27px 39px;
+    box-sizing: border-box;
+}
+header{
+    padding-top: 20px;
+}
+.title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: medium;
+    font-size: 40px;
+    text-decoration: none;
+    color: aquamarine;
+    margin: 0;
+}
+header p{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: aquamarine;
+}
+.nav{
+    background-color: darkslategrey;
+    width: 984px;
+    height: 83px;
+    margin-bottom: 62px;
+    box-sizing: border-box;
+}
+.nav-list{
+    display: flex;
+}
+.nav-list_item{
+    list-style: none;
+    margin: 15px 30px;
+    padding: 10px 46.5px;
+}
+.nav-list_item-link{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.nav-list_item-link:hover{
+    color: aquamarine;
+}
+.welcome{
+    width:600px;
+    margin:100px 192px;
+}
+.more{    
+    display: inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: orange;
+    color: white;
+    margin-top:20px;
+    margin-left: 380px;
+    margin-right: 380px;
+    padding: 20px 60px;
+    border-radius: 10px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.more:hover{
+    box-shadow: 0 3px 6px 0px rgba(0,0,0,0.32);
+}
+.small-title{
+    text-align: center;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 72px;
+    font-weight: medium;
+}
+.work{
+    width: 300px;
+    margin:0 94px;
+}
+.words{
+    text-align: center;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 40px;
+}
+.about-words{
+    text-align: center;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 20px;
+}
+.me{
+    width:200px;
+    height: 200px;
+    margin:0 392px;
+}
+.icon{
+    margin:0 412px; 
+}
+.icon-size{
+    width: 30px;
+    height:30px;
+    padding-right:20px;
+}
+footer{
+    text-align: center;
+}
